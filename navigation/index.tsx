@@ -3,6 +3,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import GlobalState from "../context/Globalstate";
 import Login from "../screens/login";
 import { StatusBar } from "react-native";
+import Message from "../screens/MesageScreen";
 
 const Stack = createNativeStackNavigator();
 const Navigation = () => {
@@ -15,6 +16,11 @@ const Navigation = () => {
             name="Homescreen"
             component={Login}
             options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="Messagescreen"
+            component={Message}
+            options={{ headerShown: true }}
           />
         </Stack.Navigator>
       </NavigationContainer>
