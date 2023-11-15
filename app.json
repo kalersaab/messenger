@@ -1,4 +1,5 @@
 {
+  "projectName": "messenger",
   "expo": {
     "name": "messenger",
     "slug": "messenger",
@@ -11,9 +12,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
